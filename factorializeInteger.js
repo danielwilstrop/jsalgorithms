@@ -1,9 +1,11 @@
 function factorialize(num) {
-    let num = num
-    let fNum = 1
-      while (num > 0){
-        fNum *= num
-        i-- 
-      }
-    return fNum;
+  let number = num
+  let fNum = 1
+  while (number > 1) {
+    fnum *= number
+    number = number - 1
   }
+  return fNum
+}
+
+console.log(factorialize(3))
