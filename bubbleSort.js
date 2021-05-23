@@ -20,6 +20,8 @@ const bubbleSort = (input) => {
   return input
 }
 
+// reverse, sorts from largest to smallest (if statement is less than not more than)
+
 const bubbleSort = (input) => {
   let swapping = true
 
